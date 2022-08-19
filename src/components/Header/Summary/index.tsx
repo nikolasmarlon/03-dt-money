@@ -9,6 +9,10 @@ export function Summary() {
 
     const { transactions } = useContext(TransactionsContext)
 
+    //reduce permite percorrer o array e reduzir este array a uma nova estrutura de dados
+    //neste caso, vai converter o array de  transactions num objeto -- {income: 0, outcome: 0, total: 0}
+    const summry = transactions.reduce()
+
     return(
         <SummaryContainer>
             <SummaryCard>
