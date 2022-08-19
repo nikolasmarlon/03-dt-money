@@ -15,8 +15,16 @@
             "description": "Hamburger",
             "type": "outcome",
             "category": "Alimentação",
-            "price": 12440,
+            "price": 60,
             "createdAt": "2022-07-12 22-48-15"
+        },
+        {
+            "id": 3,
+            "description": "Desenvolvimento de site",
+            "type": "outcome",
+            "category": "Educação",
+            "price": 2400,
+            "createdAt": "2022-07-12 22-50-15"
         }
     ]
 }
