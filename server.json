@@ -8,7 +8,7 @@
             "type": "income",
             "category": "Venda",
             "price": 12440,
-            "createdAt": "2022-07-12 22-50-15"
+            "createdAt": "2022-07-12T22:50:15"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "type": "outcome",
             "category": "Alimentação",
             "price": 60,
-            "createdAt": "2022-07-12 22-48-15"
+            "createdAt": "2022-07-12T22:50:15"
         },
         {
             "id": 3,
@@ -24,7 +24,7 @@
             "type": "outcome",
             "category": "Educação",
             "price": 2400,
-            "createdAt": "2022-07-12 22-50-15"
+            "createdAt": "2022-07-12T22:50:15"
         }
     ]
 }

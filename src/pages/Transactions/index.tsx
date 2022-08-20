@@ -39,7 +39,7 @@ export function Transactions(){
                                                 {priceFormatter.format(transaction.price)}
                                             </PriceHighlight></td>
                                         <td>{transaction.category}</td>
-                                    <td>{/*dateFormatter.format(new Date(transaction.createdAt))*/}</td>
+                                    <td>{dateFormatter.format(new Date(transaction.createdAt))}</td>
                                 </tr>
                             )
                         })}
