@@ -1,4 +1,4 @@
-import { ReactNode, useState, useCallback } from 'react'
+import { ReactNode, useState, useCallback, useEffect } from 'react'
 import { createContext } from 'use-context-selector'
 import { api } from '../lib/axios'
 
@@ -79,11 +79,12 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
 
     setTransactions((state) => [response.data, ...state])
   }
+  */
 
   useEffect(() => {
     fetchTransactions()
-  }, [])
-*/
+  }, [fetchTransactions])
+
   return (
     <TransactionsContext.Provider
       value={{
